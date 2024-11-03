@@ -1,0 +1,33 @@
+{
+  "name": "mern-stack-full-ecommerce-site",
+  "version": "1.0.0",
+  "description": "Full ecommerce site using mern",
+  "main": "servcer.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelino-valeta/mern-stack-full-ecommerce-site.git"
+  },
+  "keywords": [
+    "Ecommerce",
+    "MERN"
+  ],
+  "author": "Angelino Valeta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelino-valeta/mern-stack-full-ecommerce-site/issues"
+  },
+  "homepage": "https://github.com/angelino-valeta/mern-stack-full-ecommerce-site#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
